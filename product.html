@@ -1,39 +1,113 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product - AUVRAA</title>
+  <title>AUVRAA - Product Page</title>
   <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
 </head>
 <body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
 
-<header class="navbar">
-  <div class="logo">AUVRAA</div>
-  <nav class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="shop.html">Shop</a>
-  </nav>
-</header>
+  <main class="product-page">
+    <div class="product-gallery">
+      <img src="https://via.placeholder.com/500x600" alt="Main Product Image">
+      <div class="thumbnail-row">
+        <img src="https://via.placeholder.com/150x200" alt="Product Thumbnail 1">
+        <img src="https://via.placeholder.com/150x200" alt="Product Thumbnail 2">
+        <img src="https://via.placeholder.com/150x200" alt="Product Thumbnail 3">
+        <img src="https://via.placeholder.com/150x200" alt="Product Thumbnail 4">
+      </div>
+    </div>
 
-<section class="product-detail">
-  <div class="product-image">[IMAGE]</div>
-  <div class="product-info">
-    <h2 id="product-name">Oversized Tee</h2>
-    <p>Price: ₹799</p>
-    <label>Size:
-      <select id="size-select">
-        <option>S</option>
-        <option>M</option>
-        <option>L</option>
-        <option>XL</option>
-      </select>
-    </label>
-    <button onclick="addToCart({id: 1, name: 'Oversized Tee', price: 799})">Add to Cart</button>
-  </div>
-</section>
+    <div class="product-details">
+      <h1>Men Full Sleeve Solid Color Waffle Textured Shirt / White</h1>
+      <p class="price">Rs. 369.00</p>
 
+      <p class="offers">Flat ₹250 OFF on orders above ₹1499</p>
+
+      <div class="sizes">
+        <label>Size:</label>
+        <button>S</button>
+        <button>M</button>
+        <button>L</button>
+        <button>XL</button>
+        <button>XXL</button>
+      </div>
+
+      <div class="actions">
+        <button>Add to Cart</button>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="shipping-info">
+        <p>✅ In stock, ready to ship</p>
+        <p>🚚 Delivery in 4-8 business days</p>
+      </div>
+
+      <div class="product-description">
+        <h2>Product Description:</h2>
+        <ul>
+          <li>Waffle Texture – Unique textured fabric for a modern look</li>
+          <li>Full-Sleeve – Relaxed, casual vibe while keeping you cool</li>
+          <li>Soft & Breathable – Skin-friendly material</li>
+          <li>Multiple Sizes – S to XXL</li>
+          <li>Durable & Easy to Maintain – Machine washable</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <section class="related-products">
+    <h2>You may also like</h2>
+    <div class="related-row">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product">
+        <p>Men Full Sleeve Solid Color / Black</p>
+        <span>Rs. 369.00</span>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product">
+        <p>Men Textured Full Sleeve / Beige</p>
+        <span>Rs. 369.00</span>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product">
+        <p>Waffle Shirt / Olivegreen</p>
+        <span>Rs. 369.00</span>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product">
+        <p>Textured Shirt / Maroon</p>
+        <span>Rs. 369.00</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-columns">
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">Return & Exchange</a></li>
+          <li><a href="#">Track Order</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <p>support@auvraa.com</p>
+        <p>+91 9876543210</p>
+      </div>
+    </div>
+    <p>&copy; 2025 AUVRAA. All rights reserved.</p>
+  </footer>
 </body>
 </html>
