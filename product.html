@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product - AUVRAA</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">AUVRAA</div>
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+  </nav>
+</header>
+
+<section class="product-detail">
+  <div class="product-image">[IMAGE]</div>
+  <div class="product-info">
+    <h2 id="product-name">Oversized Tee</h2>
+    <p>Price: ₹799</p>
+    <label>Size:
+      <select id="size-select">
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+      </select>
+    </label>
+    <button onclick="addToCart({id: 1, name: 'Oversized Tee', price: 799})">Add to Cart</button>
+  </div>
+</section>
+
+</body>
+</html>
