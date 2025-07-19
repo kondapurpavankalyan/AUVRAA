@@ -1,0 +1,65 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #111;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #000;
+  color: #fff;
+}
+.nav-links a {
+  margin: 0 1rem;
+  color: #fff;
+}
+.hero {
+  background: #f5f5f5;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #000;
+  color: #fff;
+}
+.categories, .featured, .why-auvraa, .lookbook, .reviews {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.category-grid, .product-grid, .usp-grid, .insta-grid, .review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.category, .product-card, .usp-grid div, .insta-post, .review {
+  background: #eee;
+  padding: 2rem;
+}
+.insta-post {
+  height: 150px;
+  background: #ccc;
+}
+.footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.footer a {
+  color: #fff;
+  margin: 0 0.5rem;
+}
